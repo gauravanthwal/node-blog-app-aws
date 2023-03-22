@@ -10,8 +10,12 @@
   <body>
     <%- include('./partials/navbar') %>
 
-    <form class="container" style="max-width: 600px" action="/user/signin" method="post">
-     
+    <form
+      class="container"
+      style="max-width: 600px"
+      action="/user/signin"
+      method="post"
+    >
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label"
           >Email address</label
@@ -37,7 +41,7 @@
         />
       </div>
       <button class="btn btn-primary">Sign In</button>
-    </div>
+    </form>
     <%- include('./partials/script') %>
   </body>
 </html>
